@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: se.yrgo.models.BookTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in se.yrgo.models.BookTest
+test2NonEqualBooks  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not equal but was: <>
+	at se.yrgo.models.BookTest.test2NonEqualBooks(BookTest.java:22)
+

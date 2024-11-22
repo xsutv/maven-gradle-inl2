@@ -65,12 +65,8 @@ public class BookCatalogTest {
     //VG
     // This test should throw BookNotFoundException in order to pass.
     @Test
-    public void testFindBookThatDoesntExist() throws BookNotFoundException {
-        try {
-            assertThrows(BookNotFoundException.class, () -> bc.findBook("Falem"));
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+    public void testFindBookThatDoesntExist() {
+        assertThrows(BookNotFoundException.class, () -> bc.findBook("Falem"));
     }
 
 }

@@ -19,8 +19,7 @@ public class BookCatalog {
 		nextPosition++;
 	}
 	
-	public Book findBook(String title) throws BookNotFoundException
-	{
+	public Book findBook(String title) throws BookNotFoundException {
 		title = title.trim();
 		
 		for (int counter = 0; counter < nextPosition; counter++) {

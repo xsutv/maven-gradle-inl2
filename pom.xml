@@ -59,8 +59,6 @@
                 </configuration>
             </plugin>
             <plugin>
-                <!-- By default,Maven assumes JDK 1.5. Add maven-compiler-plugin
-        to build plugins, in order to tell maven to use 1.8. -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>

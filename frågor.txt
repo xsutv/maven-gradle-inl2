@@ -1,0 +1,11 @@
+mvn compile -
+
+
+mvn clean -
+
+mvn javadoc -
+
+mvn test -
+
+mvn package -
+

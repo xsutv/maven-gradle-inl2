@@ -1,11 +1,18 @@
 mvn compile -
-
+Kompilerar alla källkoder i projektet för att skapa *.class av varje fil. Dessa placeras i target.
 
 mvn clean -
+Tar bort föregående build-filer, detta rensar projektet. Det är bra att använda ifall det skett
+ändringar i källkoder etc. Clean ser till att vi alltid får det senaste.
 
 mvn javadoc -
+Genererar javadoc fil för projektet. Den använder sig utav standard javadoc och låter oss
+använda samma parametrar, taggar etc.
 
 mvn test -
+Detta kör alla enhetstester för projektet. Dessa placeras också i target.
 
 mvn package -
+Detta packeterar vår kompilerade kod till en jar-fil.
+
 
